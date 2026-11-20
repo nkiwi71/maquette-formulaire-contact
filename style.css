@@ -11,24 +11,45 @@ body {
 
 form {
     /* Ajouter un padding, une bordure et un espacement */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    gap: 1rem;
 }
 
 fieldset {
     /* Espacer les groupes de champs */
+    margin: 1rem;
+    margin-left: 0;
 }
 
 label {
     /* Rendre les labels plus lisibles */
+    display: block;
+    margin: 0.5rem;
+    
 }
 
 input,
 select,
 textarea {
     /* Style de base pour les champs */
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
 }
 
 button {
     /* Style du bouton d'envoi */
+    color: blue;
+    background-color: rgb(109, 117, 233);
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;   
 }
 
 /* Consigne 9 (optionnel) : datalist — pas de style spécifique nécessaire,
